@@ -1,0 +1,13 @@
+details
+{
+    background-color: rgba(128, 255, 0, 0.034);
+    font-size: 16px;
+    padding: 12px;
+}
+
+details p
+{
+    background-color: rgba(255, 127, 80, 0.466);
+    font-size: 24px;
+    padding: 6px;
+}
