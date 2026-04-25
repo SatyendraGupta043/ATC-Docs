@@ -1,11 +1,11 @@
-.chapter-dropdown
+.quicknav-dropdown
 {
     position: relative;
     display: inline-block;
     margin-left: 50px;
 }
 
-.chapter-dropdown-btn
+.quicknav-dropdown-btn
 {
     background-color: rgb(101, 248, 87); /* Matching your theme */
     color: black;
@@ -18,7 +18,7 @@
 
 }
 
-header .chapter-list
+header .quicknav-list
 {
     display: none;
     position: absolute;
@@ -29,7 +29,7 @@ header .chapter-list
     border-radius: 4px;
 }
 
-header .chapter-list a
+header .quicknav-list a
 {
     color: black;
     padding: 6px 24px;
@@ -42,18 +42,18 @@ header .chapter-list a
 }
 
 /* Show the dropdown menu on hover */
-.chapter-dropdown:hover .chapter-list
+.quicknav-dropdown:hover .quicknav-list
 {
     display: block;
 }
 
 /* Change the button color when the dropdown is shown */
-.chapter-dropdown:hover .chapter-dropdown-btn
+.quicknav-dropdown:hover .quicknav-dropdown-btn
 {
     background-color: rgba(14, 184, 14, 0.932);
 }
 
-.chapter-list :hover
+.quicknav-list :hover
 {
     background-color: burlywood;
 }
