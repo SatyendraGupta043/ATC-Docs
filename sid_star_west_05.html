@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SID STAR</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <div style="background-color: rgba(15, 177, 218, 0.178); display: flex; padding-top: 0; height: 54px;">
+        <p style="text-align: left; font-size: 30px; font-weight: bold; width: 100%; margin-top: 10px; padding-left: 10px;">SID and STAR Westerly (Bearing-Distane)</p>
+    </div>
+       
+    <script src="https://unpkg.com/@panzoom/panzoom/dist/panzoom.min.js"></script>
+
+    <main>
+        <div id="zoom-wrapper">
+            <img id="zoom-img" src="SID_STAR_West/05. SID STAR Westerly (Bearing Distance).png" width="100%">
+        </div>
+    </main>
+
+    <script>
+        const elem = document.getElementById('zoom-img');
+        const panzoom = Panzoom(elem, {
+            maxScale: 10
+        });
+
+        elem.parentElement.addEventListener('wheel', panzoom.zoomWithWheel);
+    </script>
+
+</body>
+</html>

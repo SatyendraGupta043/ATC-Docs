@@ -6,7 +6,6 @@ body
 main
 {
     background-color: rgba(250, 235, 215, 0.212);
-    font-size: 20px;
     padding: 10px;
 }
 
@@ -15,3 +14,64 @@ main a
     text-decoration: none;
 }
 
+
+.home_h4
+{
+    border: 1px solid rgba(0, 132, 255, 0.26) ;
+    background-color: rgba(135, 207, 235, 0.356);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: red;
+}
+
+.home_h4_div
+{
+    display: flex;
+    margin-top: 0px;
+    padding: 4px;
+}
+
+.home_h4_div_div
+{
+    padding-top: 0 ;
+}
+
+.home_h4_div h5
+{
+    margin-top: 2px;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.home_h4_div_div_div
+{
+    display: flex;
+    height: 25px;
+}
+.home_h4_div_div a, p
+{
+
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 3px;
+    display: block;
+}
+
+
+
+.home_h4_div_div a
+{
+    text-align: center;
+}
+
+
+.home_h4_div_div a:hover
+{
+    font-size: 18px;
+    color: red;
+}
